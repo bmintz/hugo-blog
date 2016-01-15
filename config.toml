@@ -1,8 +1,11 @@
-baseurl = "http://bmintz.github.io/hugo-blog"
+baseurl = "http://bmintz.github.io/"
 languageCode = "en-us"
 title = "Ben Mintz's Blog"
-post = "/:year/:month/:title/"
 disqusShortname = "bmintz-blog"
+theme = "angels-ladder"
+
+[permalinks]
+post = "/:year/:month/:title/"
 
 [indexes]
 category = "categories"
@@ -12,5 +15,5 @@ page = "page"
 [Params]
 twitter = "https://twitter.com/benjaminmintz"
 github = "https://github.com/bmintz"
-copyright = "<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>."
+copyright = 'This site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.'
 
