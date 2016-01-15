@@ -1,4 +1,4 @@
-baseurl = "http://bmintz.github.io/"
+baseurl = "https://www.ben.ninja"
 languageCode = "en-us"
 title = "Ben Mintz's Blog"
 disqusShortname = "benmintz-blog"
