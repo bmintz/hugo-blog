@@ -1,2 +1,0 @@
-# hugo-blog
-My blog
