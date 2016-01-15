@@ -1,7 +1,7 @@
 baseurl = "http://bmintz.github.io/"
 languageCode = "en-us"
 title = "Ben Mintz's Blog"
-disqusShortname = "bmintz-blog"
+disqusShortname = "benmintz-blog"
 theme = "angels-ladder"
 
 [permalinks]
