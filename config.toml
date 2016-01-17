@@ -1,8 +1,10 @@
-baseurl = "https://www.ben.ninja"
+baseurl = "https://www.ben.ninja/"
 languageCode = "en-us"
 title = "Ben Mintz's Blog"
 disqusShortname = "benmintz-blog"
 theme = "angels-ladder"
+canonifyURLs = false
+relativeURLs = true
 
 [permalinks]
 post = "/:year/:month/:title/"
