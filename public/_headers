@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: script-src 'self', https://netlify.scdn4.secure.raxcdn; unsafe-inline; 
+  Content-Security-Policy: script-src 'self' https://netlify.scdn4.secure.raxcdn; unsafe-inline; 
