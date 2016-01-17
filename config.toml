@@ -14,6 +14,9 @@ category = "categories"
 tag = "tags"
 page = "page"
 
+[blackfriday]
+latexDashes = false
+
 [Params]
 twitter = "https://twitter.com/benjaminmintz"
 github = "https://github.com/bmintz"
