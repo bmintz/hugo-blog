@@ -4,48 +4,49 @@ https://keybase.io/bmintz
 
 I hereby claim:
 
-  * I am an admin of https://www.ben.ninja
+  * I am an admin of https://ben.ninja
   * I am bmintz (https://keybase.io/bmintz) on keybase.
   * I have a public key ASBgoChtbIICd-BOZN7ZFs7vuk1bdIthmqP3L7JOTiKlvAo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "012060a0286d6c820277e04e64ded916ceefba4d5b748b619aa3f72fb24e4e22a5bc0a",
-            "host": "keybase.io",
-            "kid": "012060a0286d6c820277e04e64ded916ceefba4d5b748b619aa3f72fb24e4e22a5bc0a",
-            "uid": "ed8d3b1acbdf1dad1aff1118a79f4c19",
-            "username": "bmintz"
-        },
-        "merkle_root": {
-            "ctime": 1499836114,
-            "hash": "326691bd8855c838dfec74650d4ef9c79a97c2cec9d07c81f737bb3e0963f4def96dd17db081083c7ce5e6d2809fa8860719aaa6d20d6cc90858b40b08d311a4",
-            "hash_meta": "523da6c68779a328f085a329af7fb0893291e9f05b87ebd322ce8c4b13266e69",
-            "seqno": 1227053
-        },
-        "service": {
-            "hostname": "www.ben.ninja",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012060a0286d6c820277e04e64ded916ceefba4d5b748b619aa3f72fb24e4e22a5bc0a",
+      "host": "keybase.io",
+      "kid": "012060a0286d6c820277e04e64ded916ceefba4d5b748b619aa3f72fb24e4e22a5bc0a",
+      "uid": "ed8d3b1acbdf1dad1aff1118a79f4c19",
+      "username": "bmintz"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.25"
+    "merkle_root": {
+      "ctime": 1527662801,
+      "hash": "59ee86a79e5e8131dd5cd23ff9af91ecfcf19d9736780aaf729cbcc1fba15e5eac75ab946598cedb85e350ae6d0d6ce428fd2f64e50c493456f6003ac03f2baf",
+      "hash_meta": "929e8ed30853f88dd427b60f0baec8a30248c95a45cdc89668b3b51a358956d2",
+      "seqno": 2959912
     },
-    "ctime": 1499836124,
-    "expire_in": 504576000,
-    "prev": "9899c3d80da274e0de0702446c60a7b16590e7c310dc89c07d930441857adb62",
-    "seqno": 8,
-    "tag": "signature"
+    "service": {
+      "entropy": "SF4eorcsvGlSGULtdvAjYG0u",
+      "hostname": "ben.ninja",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.49"
+  },
+  "ctime": 1527662850,
+  "expire_in": 504576000,
+  "prev": "c7e3aa18fb05945868f80dcd21f8ab4089e5255be503380015b18ecb7b138759",
+  "seqno": 13,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYKAobWyCAnfgTmTe2RbO77pNW3SLYZqj9y+yTk4ipbwKp3BheWxvYWTFA0N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjBhMDI4NmQ2YzgyMDI3N2UwNGU2NGRlZDkxNmNlZWZiYTRkNWI3NDhiNjE5YWEzZjcyZmIyNGU0ZTIyYTViYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjBhMDI4NmQ2YzgyMDI3N2UwNGU2NGRlZDkxNmNlZWZiYTRkNWI3NDhiNjE5YWEzZjcyZmIyNGU0ZTIyYTViYzBhIiwidWlkIjoiZWQ4ZDNiMWFjYmRmMWRhZDFhZmYxMTE4YTc5ZjRjMTkiLCJ1c2VybmFtZSI6ImJtaW50eiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5OTgzNjExNCwiaGFzaCI6IjMyNjY5MWJkODg1NWM4MzhkZmVjNzQ2NTBkNGVmOWM3OWE5N2MyY2VjOWQwN2M4MWY3MzdiYjNlMDk2M2Y0ZGVmOTZkZDE3ZGIwODEwODNjN2NlNWU2ZDI4MDlmYTg4NjA3MTlhYWE2ZDIwZDZjYzkwODU4YjQwYjA4ZDMxMWE0IiwiaGFzaF9tZXRhIjoiNTIzZGE2YzY4Nzc5YTMyOGYwODVhMzI5YWY3ZmIwODkzMjkxZTlmMDViODdlYmQzMjJjZThjNGIxMzI2NmU2OSIsInNlcW5vIjoxMjI3MDUzfSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5iZW4ubmluamEiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNSJ9LCJjdGltZSI6MTQ5OTgzNjEyNCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5ODk5YzNkODBkYTI3NGUwZGUwNzAyNDQ2YzYwYTdiMTY1OTBlN2MzMTBkYzg5YzA3ZDkzMDQ0MTg1N2FkYjYyIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAxSKtAOtkZPdwo21hpKa2QZmVE/GOmNrIlIbLkxePLrjFwuRtm+X+YUUKqoVkE0XLpT4tJwJxhRGT58i2d9o4C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMkGO9QsY9g1gXxMsycbzpAMWksVOmP7fNpm2YWeuGwqo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYKAobWyCAnfgTmTe2RbO77pNW3SLYZqj9y+yTk4ipbwKp3BheWxvYWTESpcCDcQgx+OqGPsFlFho+A3NIfirQInlJVvlAzgAFbGOy3sTh1nEIBBIkKSVTgVp44kHEDWt3rvF9TMVC8rG52WIY9wI7Ki1AgHCo3NpZ8RAlJFjl2EO3QcJ6ed391FhI/MGax6YT3NhVxHcEavrhhGEiY3blH8lg/PKLW9d7ZMDON9PKmMxYmKa62U+MIOBAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILy7kWeiGKeIYhXOMi54z5Y5+O3z3cItdg+qFsd1HbrNo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
