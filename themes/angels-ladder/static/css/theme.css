@@ -1,3 +1,7 @@
+/* Theme color
+--------------------------------------------------*/
+/* Basic
+--------------------------------------------------*/
 body {
   background-color: #fff;
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -62,7 +66,10 @@ ul,
 ol {
   margin-left: 30px;
 }
-pre {
+article code {
+  background-color: #eee;
+}
+article pre {
   margin: 25px 0;
 }
 table {
@@ -84,6 +91,8 @@ img {
   border: 0;
   vertical-align: middle;
 }
+/* Header
+--------------------------------------------------*/
 header {
   padding: 20px 0;
   margin-bottom: 20px;
@@ -125,6 +134,8 @@ header #social li:last-child {
     text-align: center;
   }
 }
+/* Pager
+--------------------------------------------------*/
 nav ul.pagination {
   font-size: 0;
   text-align: center;
@@ -144,9 +155,13 @@ nav ul.pagination li.active {
 nav ul.pagination li:hover {
   border-color: #29abe2;
 }
+/* Comment
+--------------------------------------------------*/
 #single aside {
   margin-top: 80px;
 }
+/* Footer
+--------------------------------------------------*/
 footer {
   margin: 80px 0;
   padding: 20px 0;
@@ -162,6 +177,8 @@ footer img {
     margin: 40px 0;
   }
 }
+/* Single Page
+--------------------------------------------------*/
 article h1 {
   margin: 50px 0 25px 0;
 }
@@ -179,23 +196,14 @@ article h6 {
 article p {
   margin: 25px 0;
 }
-article code {
-  color: #333;
-  background-color: #eee;
-  padding: 0 3px;
-  margin: 0 3px;
-  border: 1px solid #ccc;
-  font-family: consolas, "Courier New", monospace;
-}
-article pre code {
-  font-family: consolas, "Courier New", monospace;
-}
 article blockquote {
   margin: 25px 0;
   padding-left: 20px;
   border-left: 4px solid #ccc;
   font-style: italic;
 }
+/* Common
+--------------------------------------------------*/
 .article-header {
   border-left: 4px solid #29abe2;
   margin: 10px 0 25px -4px;
