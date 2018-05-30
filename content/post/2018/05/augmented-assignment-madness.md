@@ -10,7 +10,7 @@ Python's augmented assignment behavior bothers me.\
 This has some strange implications.
 From the [Python 3 Programming FAQ], we have:
 
-```
+```none
 >>> nums = ([0], [3,4])
 >>> nums[0].extend([1])
 >>> nums[0] += [2]
@@ -21,7 +21,8 @@ TypeError: 'tuple' object does not support item assignment
 [0, 1, 2]
 ```
 
-```
+And a strange example, due to lack of `return self`:
+```py
 class Foo:
 	def __init__(self, n=0):
 		self.n = n
@@ -36,7 +37,7 @@ class Foo:
 True
 ```
 
-```
+```py
 def inc(x):
 	x += 1
 	return x is None
