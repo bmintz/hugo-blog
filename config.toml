@@ -6,6 +6,12 @@ theme = "angels-ladder"
 canonifyURLs = false
 relativeURLs = true
 
+pygmentsUseClasses = true
+# don't highlight code blocks starting with ```
+pygmentsCodefencesGuessSyntax = false
+# highlight code blocks starting with e.g. ```py
+pygmentsCodefences = true
+
 [permalinks]
 post = "/:year/:month/:title/"
 
