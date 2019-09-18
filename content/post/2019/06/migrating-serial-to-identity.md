@@ -8,7 +8,7 @@ PostgreSQL introduced [identity columns](https://www.2ndquadrant.com/en/blog/pos
 As it happens, I had some old SERIAL columns that I wanted to migrate to the new IDENTITY thing but couldn't find any instructions online.
 So here's how you do it at the `psql` shell. Assuming `TABLE a(id SERIAL PRIMARY KEY);` with some rows already:
 
-```
+```none
 start transaction isolation level serializable;
 alter table a alter column id drop default;
 select nextval('a_id_seq');  -- pretend it's 368
