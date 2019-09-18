@@ -1,7 +1,4 @@
-http://ben.ninja/* https://ben.ninja/:splat 301!
-# comply with HSTS Preload requirements
-# "The extra redirect is required
-# to ensure that any browser which supports HSTS
-# will record the HSTS entry for the top level domain,
-# not just the subdomain."
+http://ben.ninja/* https://io.mintz.cc/:splat 301!
 https://ben.ninja/* https://io.mintz.cc/:splat 301!
+http://www.ben.ninja/* https://io.mintz.cc/:splat 301!
+https://www.ben.ninja/* https://io.mintz.cc/:splat 301!
