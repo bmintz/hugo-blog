@@ -4,4 +4,4 @@ http://ben.ninja/* https://ben.ninja/:splat 301!
 # to ensure that any browser which supports HSTS
 # will record the HSTS entry for the top level domain,
 # not just the subdomain."
-https://ben.ninja/* https://www.ben.ninja/:splat 301!
+https://ben.ninja/* https://io.mintz.cc/:splat 301!

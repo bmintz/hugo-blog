@@ -1,7 +1,6 @@
-baseurl = "https://www.ben.ninja/"
+baseurl = "https://io.mintz.cc/"
 languageCode = "en-us"
-title = "Ben Mintz's Blog"
-disqusShortname = "benmintz-blog"
+title = "Io Mintz's Blog"
 theme = "angels-ladder"
 canonifyURLs = false
 relativeURLs = true
@@ -24,6 +23,5 @@ page = "page"
 latexDashes = false
 
 [Params]
-twitter = "https://twitter.com/benjaminmintz"
-github = "https://github.com/bmintz"
+github = "https://github.com/iomintz"
 copyright = 'This site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.'
