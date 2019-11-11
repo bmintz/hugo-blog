@@ -66,10 +66,11 @@ ul,
 ol {
   margin-left: 30px;
 }
-article code {
+p code {
   background-color: #eee;
 }
 article pre {
+  background-color: #f0f0f0;
   margin: 25px 0;
 }
 table {
