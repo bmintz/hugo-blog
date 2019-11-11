@@ -158,20 +158,11 @@ nav ul.pagination li:hover {
 }
 /* Footer
 --------------------------------------------------*/
-footer {
-  margin: 80px 0;
-  padding: 20px 0;
-}
 footer img {
   border-radius: 32px;
   -webkit-border-radius: 32px;
   -moz-border-radius: 32px;
   margin-bottom: 10px;
-}
-@media (max-width: 767px) {
-  footer {
-    margin: 40px 0;
-  }
 }
 /* Single Page
 --------------------------------------------------*/
