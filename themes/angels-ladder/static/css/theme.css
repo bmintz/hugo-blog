@@ -25,20 +25,15 @@ h5,
 h6 {
   font-size: 16px;
 }
-header a,
-header a:visited,
-main#index a,
-main#index a:visited,
-main#list a,
-main#list a:visited,
-nav a,
-nav a:visited {
+h1 a, /* don't color the site title link specially if already visited */
+header a:link,
+main#index a:link,
+main#list a:link,
+nav a:link {
   color: #666;
 }
-article a,
-article a:visited,
-footer a,
-article a:visited {
+article a:link,
+footer a:link {
   color: #29abe2;
 }
 header a:hover,
@@ -48,9 +43,9 @@ main#list a:hover,
 nav a:hover {
   color: #29abe2;
 }
-main#index .meta a,
-main#list .meta a,
-main#single .meta a {
+main#index .meta a:link,
+main#list .meta a:link,
+main#single .meta a:link {
   color: #999;
 }
 main#index .meta a:hover,
