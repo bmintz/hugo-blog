@@ -25,21 +25,20 @@ upstream letsencrypt {
 server {
 	server_name mysite.example www.mysite.example;
 	
-	location /.well-known/acme-challenge/ {
-		proxy_pass http://letsencrypt;
-	}
-
 	listen 443 ssl http2;
+	listen [::]:443 ssl http2;
 	ssl_certificate /etc/letsencrypt/live/mysite.example/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/mysite.example/privkey.pem;
+	# this may be located elsewhere, such as /usr/lib/python3/dist-packages/certbot/ssl-dhparams.pem
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 }
 
 server {
-	server_name site.example www.mysite.example;
+	server_name mysite.example www.mysite.example;
 	listen 80;
+	listen [::]:80;
 	location / {
-		return 301 https://$host$request-uri;
+		return 301 https://$host$request_uri;
 	}
 	location /.well-known/acme-challenge/ {
 		proxy_pass http://letsencrypt;
