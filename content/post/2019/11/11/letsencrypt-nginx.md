@@ -45,7 +45,8 @@ nginx will still be using outdated certificates.
 
 ## Configuring nginx
 
-Tell nginx to proxy *all* requests for /.well-known/acme-challenge over port 80 to certbot.
+Tell nginx to proxy requests for /.well-known/acme-challenge over port 80 to certbot. We start by telling
+nginx what port Let's Encrypt will be listening on:
 
 ```
 # /etc/nginx/conf.d/upstream-letsencrypt
@@ -92,11 +93,9 @@ certbot certonly -d mysite.example,www.mysite.example --dry-run
 The `--dry-run` flag tells certbot to do two things differently:
 
 1. Do not actually issue certificates, just test to make sure that Let's Encrypt can properly verify that you own the domain.
-2. Use [Let's Encrypt's staging servers], which have much more forgiving rate limits in case you mess up.
+2. Use [Let's Encrypt's staging servers](https://letsencrypt.org/docs/staging-environment/), which have much more forgiving rate limits in case you mess up.
 
 If that works, run it again without the `--dry-run` flag. If *that* works, congrats!
-
-[Let's Encrypt's staging servers](https://letsencrypt.org/docs/staging-environment/)
 
 ## Configuring nginx to use the certificate
 
