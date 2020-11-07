@@ -6,7 +6,7 @@ draft = false
 +++
 
 Most guides recommend using Cerbot's [nginx plugin](https://certbot.eff.org/lets-encrypt/debianbuster-nginx),
-but when I asked about it in the nginx IRC channel, I was told off. I was unable to find a guide for this so I figured it out myself. I now have certbot and nginx working together to provide automatically renewed TLS certificates that are trusted by all clients I care about. Here's how I set that up.
+but when I asked about it in the nginx IRC channel, I was told to use the standalone mode instead. I was unable to find a guide for this so I figured it out myself. I now have certbot and nginx working together to provide automatically renewed TLS certificates that are trusted by all clients I care about. Here's how I set that up.
 
 Let's Encrypt's validation servers work by requesting that you respond to an HTTP request at your domain,
 for a specific URL, with a specific value. Certbot has a mode called "standalone" which responds to these requests
