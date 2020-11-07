@@ -48,8 +48,8 @@ nginx will still be using outdated certificates.
 Tell nginx to proxy requests for /.well-known/acme-challenge over port 80 to certbot. We start by telling
 nginx what port Let's Encrypt will be listening on:
 
+**/etc/nginx/conf.d/upstream-letsencrypt**<br>
 ```
-# /etc/nginx/conf.d/upstream-letsencrypt
 upstream letsencrypt {
 	server 127.0.0.1:8888;
 }
@@ -57,8 +57,8 @@ upstream letsencrypt {
 
 We place that in a separate file so that we can reuse that `upstream` configuration across multiple websites.
 
+**/etc/nginx/sites-available/mysite.example**<br>
 ```
-# /etc/nginx/sites-available/mysite.example
 server {
 	server_name mysite.example www.mysite.example;
 	listen 80;
