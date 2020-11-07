@@ -38,7 +38,7 @@ http-01-port = 8888
 systemctl reload nginx
 ```
 
-`chmod +x /etc/letsencrypt/renewal-hooks/deloy/reload-nginx.sh`
+`chmod +x /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh`
 
 This makes sure that when a certificate is issued or renewed, nginx is made aware of it. Otherwise, after renewal,
 nginx will still be using outdated certificates.
